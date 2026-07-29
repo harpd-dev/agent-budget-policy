@@ -1,0 +1,27 @@
+{
+  "name": "@harpd/agent-budget-policy",
+  "version": "0.1.0",
+  "description": "Harpd budget policy SDK — declare per-call, per-agent, per-endpoint, per-tool caps and evaluate them locally before a payment is fired. Framework-free, zero runtime deps.",
+  "type": "module",
+  "main": "src/index.js",
+  "module": "src/index.js",
+  "types": "src/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./src/index.d.ts",
+      "import": "./src/index.js",
+      "require": "./src/index.js"
+    }
+  },
+  "files": ["src"],
+  "keywords": ["agent-commerce", "budget-control", "x402", "agent-payments", "policy", "harpd"],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/harpd-dev/agent-budget-policy.git"
+  },
+  "homepage": "https://harpd.com/docs/budget-policy",
+  "bugs": {
+    "url": "https://github.com/harpd-dev/agent-budget-policy/issues"
+  }
+}
