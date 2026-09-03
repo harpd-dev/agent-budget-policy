@@ -1,8 +1,11 @@
 {
   "name": "@harpd/agent-budget-policy",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Harpd budget policy SDK — declare per-call, per-agent, per-endpoint, per-tool caps and evaluate them locally before a payment is fired. Framework-free, zero runtime deps.",
   "type": "module",
+  "scripts": {
+    "test": "node --test test/index.test.js"
+  },
   "main": "src/index.js",
   "module": "src/index.js",
   "types": "src/index.d.ts",
