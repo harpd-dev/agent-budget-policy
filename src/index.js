@@ -122,7 +122,7 @@ export function evaluate(policy, intent) {
   // 2. Token allowlist. Optional — null = accept any token.
   if (policy.allowedTokens && intent.asset) {
     if (!policy.allowedTokens.includes(intent.asset)) {
-      return deny('token_not_allowed', { token: intent.asset, allowed: policy.allowedTokens })
+      return deny('token_not_allowed', { token: intent.asset, allowedTokens: policy.allowedTokens })
     }
   }
 
